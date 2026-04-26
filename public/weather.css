@@ -1,0 +1,28 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+    margin-top: 3em;
+}
+
+.container {
+    display: flex;
+    gap: 10em;
+}
+
+.forecast {
+    display: flex;
+    justify-content: center;  
+    color: black;
+    background-color: #ffffff;
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+.main {
+    display: flex;
+    justify-content: center;  
+    flex-direction: column;
+    align-items: center;      
+    min-height: 80vh; 
+}

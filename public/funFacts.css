@@ -1,0 +1,27 @@
+.show-facts {
+    font-size: 2em;
+    text-align: center;
+    max-width: 60ch;
+}
+
+.facts-and-meme {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.memes {
+    width: 10em;
+    height: 7em;
+}
+
+.main {
+    overflow: hidden
+}
+
+.meme-row img {
+    width: 300%;
+    height: 300%;
+    object-fit: contain;
+}
+  

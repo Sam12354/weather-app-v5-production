@@ -1,0 +1,97 @@
+.parent-chat-bot-main {
+    width: 15em;
+    height: 15em;
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.chat-bot-main .row {
+    max-height: 100%;
+    overflow-y: auto;
+    flex-direction: column;
+    margin-bottom: 6px;
+}
+
+.parent-chat-bot-main {
+    width: 30em;
+    height: 30em;
+    background: hsl(212, 72%, 59%);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 10px
+}
+
+.chat-bot-main {
+    flex: 1; /* take up available space above input */
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; /* scroll when messages exceed height */
+    margin-bottom: 4px; /* optional spacing before input */
+}
+
+.row {
+    display: flex;
+    flex-direction: column; /* stack messages vertically */
+}
+
+.portfolio-item {
+    margin-bottom: 6px; /* gap between messages like ChatGPT */
+}
+
+.parent-chat-bot-main form input {
+    width: 100%;
+    box-sizing: border-box; /* include padding in width */
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+.chat-button {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 16px;
+    background-color: hsl(212, 72%, 59%);
+    color: white;
+    border: none;
+    border-radius: 80px;
+    cursor: pointer;
+    font-weight: bold;
+    z-index: 1000; /* stay above other elements */
+}
+
+.chat-button:hover {
+    background-color: #357ab8;
+}
+
+.close-button {
+    background-color: rgb(189, 0, 0);
+    position: absolute; top: 5px; right: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.typing-indicator{
+    font-size: 40px; 
+    font-style: italic; 
+    /* color: white; */
+}
