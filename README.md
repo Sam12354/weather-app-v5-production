@@ -276,3 +276,18 @@ Works only in browsers that support SpeechRecognition
 Currently echoes the user's speech in an AI-generated voice
 
 Future enhancement: connect Voice Bot with the AI Chatbot for intelligent spoken conversations
+
+## 🔐 Voice Password (Experimental)
+
+The app includes a simple voice-based unlock feature.
+
+**🚀 How It Works**
+
+If the user says "unlock", the app redirects to a hidden route (/paypal)
+This route contains a demo PayPal button
+
+**⚠️ Notes**
+
+Requires microphone permissions
+The secret phrase is currently hardcoded as "unlock"
+This is a demo feature intended to showcase voice interaction, not secure authentication
