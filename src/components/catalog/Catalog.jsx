@@ -1,6 +1,6 @@
 import { use, useEffect, useState } from "react";
 import CatalogItem from "./catalog-item/CatalogItem";
-import { getAll } from "../../api/weather-Api";
+import { getAll } from "../../api/weather-api";
 import { getFunFacts } from "../../api/funFacts";
 import FunFactsItem from "./catalog-item/FunFactsItem";
 import { getMeme } from "../../api/memes";
