@@ -1,4 +1,10 @@
-Weather Forecast App 🌤️
+## 🚀 Live Demo
+
+### 👉🌤️ [CLICK HERE TO OPEN THE WEATHER APP](https://weather-app-v5-production.vercel.app/)
+
+---
+
+## Weather Forecast App 🌤️
 
 React app that shows a 5-day weather forecast with beautiful daily summaries — built to demonstrate API integration, routing, and reusable components.
 
