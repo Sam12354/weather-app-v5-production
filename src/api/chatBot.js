@@ -6,7 +6,7 @@ export const getResponse = async (userMessage) => {
         method: 'POST',
         headers: {
             Authorization: `Bearer ${CHAT_BOT_SPECIAL_KEY}`,
-            'HTTP-Referer': 'http://localhost:5173/catalog', // Optional. Site URL for rankings on openrouter.ai.
+            'HTTP-Referer': 'https://weather-app-v5-production.vercel.app/', // Optional. Site URL for rankings on openrouter.ai.
             'Content-Type': 'application/json',
         },
         body: JSON.stringify({
